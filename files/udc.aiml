@@ -124,7 +124,7 @@
   </category>
 
   <category>
-    <pattern>BONJOUR</pattern>
+    <pattern><set>bonjour</set></pattern>
     <template>
       <random>
         <li>Bonjour! ಠ‿ಠ</li>
