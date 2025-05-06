@@ -177,8 +177,8 @@
 
     <category>
       <pattern>* AVENIR *</pattern>
-      <template>La boule magique !</template>
-    </pattern>
+        <template>La boule magique !</template>
+    </category>
 
     <category>
       <pattern>* BIZARRE *</pattern>
