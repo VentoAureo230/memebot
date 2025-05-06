@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml>
+<aiml version="2.0" xmlns="http://aiml.org/2001/AIML/">
     <category>
       <pattern>* PHILIPPE *</pattern>
       <template>PHILIIIIIPPE ! JE SAIS OÙ TU TE CACHES !</template>
@@ -396,4 +396,13 @@
       </random>
     </template>
   </category>
+
+  <!-- MAP PRÉNOM-->
+    <category>
+      <pattern>MON NOM EST *</pattern>
+      <template>
+        <think><set name="userName"><star/></set></think>
+        <map name="name"><get name="userName"/></map>
+      </template>
+    </category>
 </aiml>
