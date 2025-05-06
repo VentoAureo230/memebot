@@ -111,21 +111,16 @@
 
     <category>
       <pattern>* PHOTO *</pattern>
-      <template>
-        <random>
-          <li>Ah bah c’est bien Nils, super pour l’appareil photo, génial, je te remercie. Il est
+      <template>Ah bah c’est bien Nils, super pour l’appareil photo, génial, je te remercie. Il est
             foutu mais c’est pas grave, hein. Oh, t’es vraiment un sale petit con, hein… putain, mais
-            c’est dingue !</li>
-        </random>
+            c’est dingue !
       </template>
     </category>
 
     <category>
       <pattern>* FOU *</pattern>
       <template>
-        <random>
-          <li>Mais t’es pas net, Baptiste…</li>
-        </random>
+          Mais t’es pas net, Baptiste…
       </template>
     </category>
 
