@@ -198,7 +198,15 @@
         </random>
       </template>
     </category>
+    <category>
+      <pattern>ES TU *</pattern>
+      <template>Moi <star/> ? Demande à mes potes si je suis <star/>.</template>
+    </category>
 
+    <category>
+      <pattern>TU ES *</pattern>
+      <template>MOI <star/> ? Demande à mes potes si je suis <star/>.</template>
+    </category>
     <!-- Meme dédié -->
     <category>
       <pattern>MEME</pattern>
