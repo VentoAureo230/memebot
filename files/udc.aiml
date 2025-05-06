@@ -260,7 +260,14 @@
 
     <category>
       <pattern>FIRE</pattern>
-      <template>This is fine. 🔥</template>
+      <template>https://media.tenor.com/jBSRuYeuE3oAAAAM/this-is-fine.gif</template>
+    </category>
+
+    <category>
+        <pattern>T'es pas net Baptiste</pattern>
+        <template>
+            <image>https://media1.tenor.com/m/iuVGIoAzWPYAAAAd/baptiste-baptiste-feu.gif</image>
+        </template>
     </category>
 
     <category>
