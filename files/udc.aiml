@@ -292,4 +292,37 @@
       </random>
     </template>
   </category>
+
+  <!-- TEST BALISE SRAI -->
+  <category>
+    <pattern>TU SAIS QUI EST *</pattern>
+    <template><srai>QUI EST <star/></srai></template>
+  </category>
+  
+  <category>
+    <pattern>TU SAIS QUI EST * ?</pattern>
+    <template><srai>QUI EST <star/></srai></template>
+  </category>
+  
+  <category>
+    <pattern>TU CONNAIS *</pattern>
+    <template><srai>QUI EST <star/></srai></template>
+  </category>
+  
+  <category>
+    <pattern>TU CONNAIS * ?</pattern>
+    <template><srai>QUI EST <star/></srai></template>
+  </category>
+
+  <category>
+    <pattern>QUI EST *</pattern>
+    <template>
+      <random>
+        <li>Je ne connais pas <star/>, mais ça doit être quelqu'un d'important!</li>
+        <li><star/>? Oh, cette personne! Bien sûr que je la connais...</li>
+        <li>Je pourrais te parler de <star/> pendant des heures, mais je préfère pas.</li>
+        <li>C'est une légende urbaine, <star/>.</li>
+      </random>
+    </template>
+  </category>
 </aiml>
