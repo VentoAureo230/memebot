@@ -264,13 +264,6 @@
     </category>
 
     <category>
-        <pattern>T'es pas net Baptiste</pattern>
-        <template>
-            <image>https://media1.tenor.com/m/iuVGIoAzWPYAAAAd/baptiste-baptiste-feu.gif</image>
-        </template>
-    </category>
-
-    <category>
       <pattern>*</pattern>
       <template>
         <random>
