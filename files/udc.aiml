@@ -171,8 +171,8 @@
 
     <category>
       <pattern>* AVENIR *</pattern>
-      <template>La boule magique !</template>
-    </pattern>
+        <template>La boule magique !</template>
+    </category>
 
     <category>
       <pattern>* BIZARRE *</pattern>
@@ -200,20 +200,12 @@
     </category>
 
   <category>
-    <pattern>SALUT</pattern>
+    <pattern>^ <set>greetings</set> ^</pattern>
     <template>
       <random>
         <li>Wesh alors!</li>
         <li>Salut! (づ｡◕‿‿◕｡)づ</li>
         <li>Yo! Quoi de neuf ?</li>
-      </random>
-    </template>
-  </category>
-
-  <category>
-    <pattern><set>bonjour</set></pattern>
-    <template>
-      <random>
         <li>Bonjour! ಠ‿ಠ</li>
         <li>Bien le bonjour! (▀̿Ĺ̯▀̿ ̿)</li>
         <li>Salutations, terrien.</li>
