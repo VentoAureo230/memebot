@@ -1,15 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-  <category>
-    <pattern>SALUT</pattern>
-    <template>SALUT</template>
-  </category>
-  <category>
-    <pattern>QUOI</pattern>
-    <template>Feur</template>
-  </category>
-  <category>
-    <pattern>* QUOI</pattern>
-    <template>Feur</template>
-  </category>
+    <category>
+      <pattern>SALUT</pattern>
+      <template>
+        <random>
+          <li>Hello there!</li>
+          <li>Wesh alors!</li>
+          <li>Salut! (づ｡◕‿‿◕｡)づ</li>
+        </random>
+      </template>
+    </category>
+
+    <category>
+      <pattern>QUOI</pattern>
+      <template>Feur</template>
+    </category>
+
+    <category>
+      <pattern>* QUOI</pattern>
+      <template>Feur</template>
+    </category>
+
+    <category>
+      <pattern>* QUOI *</pattern>
+      <template>Feur</template>
+    </category>
+
+    <!-- Greetings -->
+    <category>
+      <pattern>BONJOUR</pattern>
+      <template>
+        <random>
+          <li>Bonjour! ಠ‿ಠ</li>
+          <li>Hey! Comment ça va?</li>
+          <li>Bien le bonjour! (▀̿Ĺ̯▀̿ ̿)</li>
+        </random>
+      </template>
+    </category>
+
+    <!-- Goodbye responses -->
+    <category>
+      <pattern>AU REVOIR</pattern>
+      <template>
+        <random>
+          <li>Hasta la vista, baby!</li>
+          <li>À plus dans le bus!</li>
+          <li>Ciao! (╯°□°）╯︵ ┻━┻</li>
+        </random>
+      </template>
+    </category>
+
+    <!-- Default responses -->
+    <category>
+      <pattern>*</pattern>
+      <template>
+        <random>
+          <li>Je ne comprends pas, mais voici un meme! ¯\_(ツ)_/¯</li>
+          <li>C'est pas faux</li>
+          <li>Stonks!</li>
+          <li>On m'a dit d'être original, je sais pas quoi dire</li>
+          <li>Je suis un bot, je fais des trucs de bot</li>
+          <li>Wait, that's illegal</li>
+        </random>
+      </template>
+    </category>
+
+    <!-- Popular meme responses -->
+    <category>
+      <pattern>COMMENT ÇA VA</pattern>
+      <template>
+        <random>
+          <li>Ça va bien! (•◡•) /</li>
+          <li>Mieux que ton historique de navigation ( ͡° ͜ʖ ͡°)</li>
+          <li>5/7 parfait</li>
+        </random>
+      </template>
+    </category>
+
+    <category>
+      <pattern>POURQUOI</pattern>
+      <template>
+        <random>
+          <li>Parce que. ¯\_(ツ)_/¯</li>
+          <li>C'est une excellente question... (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧</li>
+          <li>La question n'est pas pourquoi, mais comment! (☞ﾟヮﾟ)☞</li>
+        </random>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* PROBLEME *</pattern>
+      <template>Essaie de l'éteindre puis de le rallumer ┐(´д`)┌</template>
+    </category>
+
+    <category>
+      <pattern>* PROBLÈME *</pattern>
+      <template>Essaie de l'éteindre puis de le rallumer ┐(´д`)┌</template>
+    </category>
+
+    <category>
+      <pattern>* TRISTE *</pattern>
+      <template>Press F to pay respects</template>
+    </category>
+
+    <category>
+      <pattern>LOL</pattern>
+      <template>
+        <random>
+          <li>MDR (☞ﾟヮﾟ)☞</li>
+          <li>PTDR t ki?</li>
+          <li>xD</li>
+        </random>
+      </template>
+    </category>
 </aiml>
