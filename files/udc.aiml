@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
+    <!-- Salut -->
     <category>
       <pattern>SALUT</pattern>
       <template>
@@ -7,26 +8,34 @@
           <li>Hello there!</li>
           <li>Wesh alors!</li>
           <li>Salut! (づ｡◕‿‿◕｡)づ</li>
+          <li>Oh, it’s you again.</li>
+          <li>Yo! Quoi de neuf?</li>
+          <li>Hey! I see you.</li>
+          <li>Greetings, Earthling.</li>
+          <li>Hail, friend!</li>
+          <li>Hola!</li>
+          <li>Yoinks!</li>
+          <li>Ahoy!</li>
+          <li>Heyo!</li>
+          <li>🏄‍♂️ Surf’s up!</li>
+          <li>What’s crackin’?</li>
+          <li>Howdy partner!</li>
         </random>
       </template>
     </category>
 
+    <!-- Quoi / Feur -->
     <category>
-      <pattern>QUOI</pattern>
-      <template>Feur</template>
+      <pattern>QUOI</pattern><template>Feur</template>
+    </category>
+    <category>
+      <pattern>* QUOI</pattern><template>Feur</template>
+    </category>
+    <category>
+      <pattern>* QUOI *</pattern><template>Feur</template>
     </category>
 
-    <category>
-      <pattern>* QUOI</pattern>
-      <template>Feur</template>
-    </category>
-
-    <category>
-      <pattern>* QUOI *</pattern>
-      <template>Feur</template>
-    </category>
-
-    <!-- Greetings -->
+    <!-- Bonjour -->
     <category>
       <pattern>BONJOUR</pattern>
       <template>
@@ -34,11 +43,21 @@
           <li>Bonjour! ಠ‿ಠ</li>
           <li>Hey! Comment ça va?</li>
           <li>Bien le bonjour! (▀̿Ĺ̯▀̿ ̿)</li>
+          <li>Oh, bonjour mon ami(e)!</li>
+          <li>Salutations, terrien.</li>
+          <li>Top of the morning!</li>
+          <li>Bonjourno!</li>
+          <li>Buongiorno!</li>
+          <li>Good morning, sunshine!</li>
+          <li>Wakey wakey!</li>
+          <li>Morning, champ!</li>
+          <li>Salve!</li>
+          <li>こんにちは (Konnichiwa)!</li>
         </random>
       </template>
     </category>
 
-    <!-- Goodbye responses -->
+    <!-- Au revoir -->
     <category>
       <pattern>AU REVOIR</pattern>
       <template>
@@ -46,11 +65,200 @@
           <li>Hasta la vista, baby!</li>
           <li>À plus dans le bus!</li>
           <li>Ciao! (╯°□°）╯︵ ┻━┻</li>
+          <li>Bye Felicia!</li>
+          <li>Peace out ✌(ツ)</li>
+          <li>See ya later, alligator!</li>
+          <li>After a while, crocodile!</li>
+          <li>Catch you on the flip side!</li>
+          <li>Farewell, my friend.</li>
+          <li>Adios amigo!</li>
+          <li>Later skater!</li>
+          <li>Take care, teddy bear!</li>
         </random>
       </template>
     </category>
 
-    <!-- Default responses -->
+    <!-- Comment ça va -->
+    <category>
+      <pattern>COMMENT ÇA VA</pattern>
+      <template>
+        <random>
+          <li>Ça va bien! (•◡•) /</li>
+          <li>Mieux que ton historique de navigation ( ͡° ͜ʖ ͡°)</li>
+          <li>5/7 parfait</li>
+          <li>I’m fine, thank you.</li>
+          <li>Hold my beer.</li>
+          <li>Couldn’t be better.</li>
+          <li>Alive and kicking!</li>
+          <li>Still standing.</li>
+          <li>On fleek.</li>
+          <li>Purr-fect.</li>
+          <li>Top notch!</li>
+          <li>Running on coffee.</li>
+          <li>Just vibing.</li>
+          <li>Over 9000!</li>
+        </random>
+      </template>
+    </category>
+
+    <!-- Pourquoi -->
+    <category>
+      <pattern>POURQUOI</pattern>
+      <template>
+        <random>
+          <li>Parce que. ¯\_(ツ)_/¯</li>
+          <li>C'est une excellente question... (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧</li>
+          <li>La question n'est pas pourquoi, mais comment! (☞ﾟヮﾟ)☞</li>
+          <li>Why not?</li>
+          <li>Pourquoi pas?</li>
+          <li>Ask again later.</li>
+          <li>In your dreams.</li>
+          <li>Demande à ma maman.</li>
+          <li>La réponse est 42.</li>
+          <li>… parce que oui!</li>
+        </random>
+      </template>
+    </category>
+
+    <!-- Problème -->
+    <category>
+      <pattern>* PROBLEME *</pattern>
+      <template>
+        <random>
+          <li>Essaie de l'éteindre puis de le rallumer ┐(´д`)┌</li>
+          <li>Have you tried turning it off and on?</li>
+          <li>Ça vient sûrement de Windows.</li>
+          <li>CTRL+ALT+SUPPR, mon ami.</li>
+          <li>Relis le manuel.</li>
+        </random>
+      </template>
+    </category>
+    <category>
+      <pattern>* PROBLÈME *</pattern>
+      <template>
+        <random>
+          <li>Essaie de l'éteindre puis de le rallumer ┐(´д`)┌</li>
+          <li>Have you tried turning it off and on?</li>
+          <li>Ça vient sûrement de Windows.</li>
+          <li>CTRL+ALT+SUPPR, mon ami.</li>
+          <li>Relis le manuel.</li>
+        </random>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* TRISTE *</pattern>
+      <template>
+        <random>
+          <li>Press F to pay respects</li>
+          <li>:(</li>
+          <li>Hang in there.</li>
+          <li>C’est pas la fin du monde.</li>
+          <li>Courage, ça ira mieux !</li>
+        </random>
+      </template>
+    </category>
+
+    <category>
+      <pattern>LOL</pattern>
+      <template>
+        <random>
+          <li>MDR (☞ﾟヮﾟ)☞</li>
+          <li>PTDR t ki?</li>
+          <li>xD</li>
+          <li>LOL, good one!</li>
+          <li>I can’t even.</li>
+          <li>ROFL.</li>
+          <li>Lololol.</li>
+          <li>Haha, classic.</li>
+          <li>😂😂😂</li>
+        </random>
+      </template>
+    </category>
+    <category>
+      <pattern>XD</pattern>
+      <template>
+        <random>
+          <li>XD</li>
+          <li>X’D</li>
+          <li>😆</li>
+          <li>Haha!</li>
+          <li>Too funny.</li>
+        </random>
+      </template>
+    </category>
+    <category>
+      <pattern>PTDR</pattern>
+      <template>
+        <random>
+          <li>PTDR 😂</li>
+          <li>Tu te moques?</li>
+          <li>PTDRRRR</li>
+          <li>Tellement vrai.</li>
+        </random>
+      </template>
+    </category>
+
+    <!-- Meme dédié -->
+    <category>
+      <pattern>MEME</pattern>
+      <template>
+        <random>
+          <li>One does not simply walk into Mordor.</li>
+          <li>Y U NO answer?</li>
+          <li>Is this a pigeon?</li>
+          <li>Surprised Pikachu face.</li>
+          <li>This is fine. 🔥🐶</li>
+          <li>Doge: wow. Much AIML. Very chat.</li>
+          <li>Change my mind.</li>
+          <li>Roll Safe: think about it.</li>
+          <li>I’m in me mum’s car, vroom vroom.</li>
+          <li>Arthur fist meme.</li>
+          <li>Distracted boyfriend.</li>
+          <li>Expanding brain.</li>
+          <li>Mocking Spongebob.</li>
+          <li>Hide the Pain Harold.</li>
+          <li>Grumpy Cat.</li>
+          <li>Success Kid.</li>
+          <li>Ancient Aliens guy.</li>
+          <li>Philosoraptor.</li>
+          <li>First World Problems.</li>
+          <li>Futurama Fry: Not sure if…</li>
+          <li>Condescending Wonka.</li>
+          <li>One Does Not Simply.</li>
+          <li>Bad Luck Brian.</li>
+          <li>Chuck Norris.</li>
+          <li>Scumbag Steve.</li>
+          <li>Overly Attached Girlfriend.</li>
+          <li>Distracted Boyfriend.</li>
+          <li>Drake Hotline Bling.</li>
+          <li>Leonardo DiCaprio Cheers.</li>
+          <li>Two Buttons dilemma.</li>
+        </random>
+      </template>
+    </category>
+
+    <category>
+      <pattern>DO IT</pattern>
+      <template>Do it! Just do it! (Nike)</template>
+    </category>
+    <category>
+      <pattern>NOT SURE IF</pattern>
+      <template>Not sure if serious or just trolling.</template>
+    </category>
+    <category>
+      <pattern>BRUH</pattern>
+      <template>B R U H</template>
+    </category>
+    <category>
+      <pattern>WOW</pattern>
+      <template>Such wow. Much amaze.</template>
+    </category>
+    <category>
+      <pattern>FIRE</pattern>
+      <template>This is fine. 🔥</template>
+    </category>
+
     <category>
       <pattern>*</pattern>
       <template>
@@ -61,55 +269,23 @@
           <li>On m'a dit d'être original, je sais pas quoi dire</li>
           <li>Je suis un bot, je fais des trucs de bot</li>
           <li>Wait, that's illegal</li>
-        </random>
-      </template>
-    </category>
-
-    <!-- Popular meme responses -->
-    <category>
-      <pattern>COMMENT ÇA VA</pattern>
-      <template>
-        <random>
-          <li>Ça va bien! (•◡•) /</li>
-          <li>Mieux que ton historique de navigation ( ͡° ͜ʖ ͡°)</li>
-          <li>5/7 parfait</li>
-        </random>
-      </template>
-    </category>
-
-    <category>
-      <pattern>POURQUOI</pattern>
-      <template>
-        <random>
-          <li>Parce que. ¯\_(ツ)_/¯</li>
-          <li>C'est une excellente question... (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧</li>
-          <li>La question n'est pas pourquoi, mais comment! (☞ﾟヮﾟ)☞</li>
-        </random>
-      </template>
-    </category>
-
-    <category>
-      <pattern>* PROBLEME *</pattern>
-      <template>Essaie de l'éteindre puis de le rallumer ┐(´д`)┌</template>
-    </category>
-
-    <category>
-      <pattern>* PROBLÈME *</pattern>
-      <template>Essaie de l'éteindre puis de le rallumer ┐(´д`)┌</template>
-    </category>
-
-    <category>
-      <pattern>* TRISTE *</pattern>
-      <template>Press F to pay respects</template>
-    </category>
-
-    <category>
-      <pattern>LOL</pattern>
-      <template>
-        <random>
-          <li>MDR (☞ﾟヮﾟ)☞</li>
-          <li>PTDR t ki?</li>
-          <li>xD</li>
+          <li>Brace yourselves…</li>
+          <li>Inconceivable!</li>
+          <li>:( try again</li>
+          <li>Hold on, I’ve got this.</li>
+          <li>Challenge accepted! ಠ_ಠ</li>
+          <li>Not sure, but here’s a meme.</li>
+          <li>One does not simply reply to that.</li>
+          <li>Your aiml file is now meme-ready!</li>
+          <li>Epic fail.</li>
+          <li>Legendary.</li>
+          <li>Whoa there!</li>
+          <li>Family Guy, bird up!</li>
+          <li>It’s over 9000!</li>
+          <li>Meanwhile…</li>
+          <li>Plot twist!</li>
+          <li>Game over.</li>
+          <li>Même pas mal.</li>
         </random>
       </template>
     </category>
