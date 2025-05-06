@@ -57,6 +57,7 @@ def main():
     if kernel.getBotPredicate("name") == "set_when_loaded":
         kernel.setBotPredicate("name", "MemeBot")
 
+    # LOAD SUBSTITUTIONS
     try:
         with open("substitutions/denormal.substitution", "r", encoding="utf-8") as f:
             substitutions = json.loads(f.read())
@@ -66,7 +67,52 @@ def main():
                 kernel.addSubstitution(pattern, replacement)
     except Exception as e:
         print(f"Error loading substitutions: {e}")
-
+    
+    # LOAD SETS
+    try:
+        sets_dir = "sets"
+        for file in os.listdir(sets_dir):
+            if file.endswith(".sets"):
+                set_name = file.split('.')[0]
+                file_path = os.path.join(sets_dir, file)
+                
+                with open(file_path, "r", encoding="utf-8") as f:
+                    content = f.read()
+                    if content.strip().startswith("//"):
+                        content = "\n".join(content.split("\n")[1:])
+                    
+                    set_data = json.loads(content)
+                    for item in set_data:
+                        if item and len(item) > 0:
+                            kernel.setBotPredicate(f"set:{set_name}:{item[0]}", "true")
+                
+                print(f"Loaded set: {set_name}")
+    except Exception as e:
+        print(f"Error loading sets: {e}")
+    
+    # LOAD MAPS
+    try:
+        maps_dir = "maps"
+        if os.path.exists(maps_dir):
+            for file in os.listdir(maps_dir):
+                if file.endswith(".maps"):
+                    map_name = file.split('.')[0]
+                    file_path = os.path.join(maps_dir, file)
+                    
+                    with open(file_path, "r", encoding="utf-8") as f:
+                        content = f.read()
+                        if content.strip().startswith("//"):
+                            content = "\n".join(content.split("\n")[1:])
+                            
+                        map_data = json.loads(content)
+                        for item in map_data:
+                            if item and len(item) > 1:
+                                kernel.setBotPredicate(f"map:{map_name}:{item[0]}", item[1])
+                    
+                    print(f"Loaded map: {map_name}")
+    except Exception as e:
+        print(f"Error loading maps: {e}")
+    
     kernel.learn("files/udc.aiml")
 
     learn_file = kernel.getBotPredicate("learn-filename")
