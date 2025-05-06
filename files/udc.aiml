@@ -31,8 +31,12 @@
     </category>
 
     <category>
-      <pattern>* VIENS *</pattern>
-      <template>Allez viens, on est bien ! Allez, viens ! On est bien, bien, bien, bien !</template>
+      <pattern>* PEUR *</pattern>
+      <template></template>
+      <random>
+          <li>Allez viens, on est bien ! Allez, viens ! On est bien, bien, bien, bien !</li>
+          <li>Ne t'inquiète pas, ça va bien se passer, bien se passer, ne t'inquiète pas.</li>
+        </random>
     </category>
 
     <category>
@@ -46,13 +50,8 @@
     </category>
 
     <category>
-      <pattern>* HENDEKS *</pattern>
+      <pattern>* POLICE *</pattern>
       <template>Appelez les hendeks !</template>
-    </category>
-
-    <category>
-      <pattern>* INQUIÈTE *</pattern>
-      <template>Ne t'inquiète pas, ça va bien se passer, bien se passer, ne t'inquiète pas.</template>
     </category>
 
     <category>
@@ -66,7 +65,7 @@
     </category>
 
     <category>
-      <pattern>* HOMOSEXUEL *</pattern>
+      <pattern>* HOMOPHOBE *</pattern>
       <template>Je n'ai rien contre les homosexuelaaanh</template>
     </category>
 
@@ -88,11 +87,6 @@
     <category>
       <pattern>* BENOIT *</pattern>
       <template>Mais Benoît, t'as 6 ans, tu fumes pas de shit !? Nan, moi j'boua</template>
-    </category>
-
-    <category>
-      <pattern>* MONSIEUR BIÈRE *</pattern>
-      <template>Et si on appelait Monsieur Bière ? Monsieur Bière ! Monsieur Bière !</template>
     </category>
 
     <category>
