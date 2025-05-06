@@ -1,117 +1,210 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-  <category>
-    <pattern>* TOUT *</pattern>
-    <template>
-      <random>
-        <li>Ah bah c’est bien Nils, super pour l’appareil photo, génial, je te remercie. Il est
-          foutu mais c’est pas grave, hein. Oh, t’es vraiment un sale petit con, hein… putain, mais
-          c’est dingue !</li>
-        <li>MEUPORG</li>
-        <li>Eddy Malou !</li>
-        <li>Mais t’es pas net, Baptiste…</li>
-        <li>C’est une pie, enculé ! Putain de citadin de mes morts !</li>
-        <li>As‑tu vu les quenouilles ?</li>
-        <li>La question, elle est vite répondue…</li>
-        <li>David Goodenough</li>
-        <li>PHILIIIIIPPE ! JE SAIS OÙ TU TE CACHES !</li>
-        <li>Amandine du 38. L’unique.</li>
-        <li>8 morts, 6 blessés, je pète ma bière, ma libellule !</li>
-        <li>Le rappeur du 92, je pense que c’est un des piliers de l’Internet français.</li>
-        <li>Mais taisez‑vous !!!!</li>
-        <li>Ingénieur informaticieeeeen. Je suis ingénieur inforticieeeeen. J’aime les
-          ordinateureeeeuh. Windows 98euuuuh.</li>
-        <li>Lopez de ses morts !</li>
-        <li>Squalala ! Nous sommes partis !</li>
-        <li>Cliquez ! Cliquez, bande de salopes !</li>
-        <li>Je préfère mourir de déshonneur plutôt qu’on me déshabille dans mon déshonneur !</li>
-        <li>La boule magique !</li>
-        <li>Clément le no‑life.</li>
-        <li>Olala, elle est moche. Oh, qu’est‑ce que t’es moche ?</li>
-        <li>Disque de pisse !</li>
-        <li>Snoop Doggy Dogg, qu’est‑ce qu’on attend ?</li>
-        <li>La soucoupe et le perroquet : “PARA‑NORMAL‑EMENT”</li>
-        <li>Allez viens, on est bien ! Allez, viens ! On est bien, bien, bien, bien !</li>
-        <li>Regarde tout ce qu’on peut faire !</li>
-        <li>Les doublages FR de Ken le Survivant, JoJo des années 90 et DB…</li>
-        <li>Hokuto de cuisine… Hokuto de salle à manger !</li>
-        <li>Une hallucination collective</li>
-        <li>Appelez les hendeks !</li>
-        <li>Ne t’inquiète pas, ça va bien se passer, bien se passer, ne t’inquiète pas.</li>
-        <li>Un REGULARRRR, COUPE SKINNY !</li>
-        <li>LA RÉPUBLIQUE, C’EST MWWWWAAAAA !</li>
-        <li>C’est pour le travail</li>
-        <li>Willy Waller 2006</li>
-        <li>As‑tu vu les belles quenouilles ?</li>
-        <li>C’est une bonne situation, ça, scribe ?</li>
-        <li>Le gras, c’est la vie</li>
-        <li>Michael Jackson doublé par Mozinor</li>
-        <li>La mer Noire</li>
-        <li>Les gens en ont plein le cul des Arabes ! (paf)</li>
-        <li>C’est contre naturaaanh</li>
-        <li>C’est normal en Russie !</li>
-        <li>Je n’ai rien contre les homosexuelaaanh</li>
-        <li>Baptiste et Niels, dur, dur de départager</li>
-        <li>Mais ils ont pris de la drogue, les développeurs !</li>
-        <li>Le “ah !” de Brognart</li>
-        <li>FAUX ! /s il faut différencier l’artiste de l’œuvre</li>
-        <li>Le contenu de JohnnyCrying et ses vidéos avec Squeezie</li>
-        <li>Of oui mais bon, hein, d’abord et puis bon, pff, oh et, hein (JDG)</li>
-        <li>Moi, puceau ?</li>
-        <li>J’suis tellement famous que ma tête passe même plus dans l’cadrage de porte. Wow.</li>
-        <li>J’incarne l’énergie du Christ cosmique</li>
-        <li>Je parie qu’en ce moment même, tu t’imagines en train de sucer ma b*** au rythme des
-          coups de fouet de mes co****** sur ta gueule</li>
-        <li>C’est qui le patron ? – C’est moi !</li>
-        <li>Toute la séquence sur “L’Homme le plus classe du monde” est juste mythique pour moi.</li>
-        <li>J’en ai pour une barre de fringues sur moi.</li>
-        <li>Raggot le hamster (on l’embrasse)</li>
-        <li>Bon, c’est pas si grave que ça — David Goodenough</li>
-        <li>J’ai mal à mes lunettes !</li>
-        <li>La bifle, il m’a toujours fait sourire, cet extrait.</li>
-        <li>APPELEZ LA POLIIIIIIICE ! MES VOISINS SONT DES DÉBILES PROFOOOONDS.</li>
-        <li>Oooh, qu’est‑ce que t’es moche ! J’te bloque ! Houlala qu’elle est moche !</li>
-        <li>Hey ! Tu t’appelles comment ??</li>
-        <li>Coucou, tu veux voir ma bite ?</li>
-        <li>Amélie du 9.3., 133 Franc neuf cfaaaaa</li>
-        <li>Écoute mon petit José, tu baises des ménagères ? Bien, tu dois avoir le cul qui brille
-          mais c’est pas ça qu’on appelle “la classe”.</li>
-        <li>C’est grave, moi, mdrr, vous voyez le meme du mec qui bouge ses pecs en rythme sur
-          n’importe quelle musique ? 😂</li>
-        <li>Silvain Durif : le grand monarque, le Christ cosmique.</li>
-        <li>Le Telnet, ça prend combien de raw sockets en sur‑adressage sur un FDDI ?</li>
-        <li>La dialectique peut‑elle casser des briques ?</li>
-        <li>Maître Yoda contre Lorenzo</li>
-        <li>Le roi Heenok</li>
-        <li>Lacoste TN</li>
-        <li>Hey marine ! Quoi ? Paff</li>
-        <li>Ça va devenir vrai dans cette pièce pour quelques instants</li>
-        <li>Putain, ce mec est un monument d’Internet, c’est incroyable</li>
-        <li>Laurent le PGM</li>
-        <li>Allé viens, on est bien !</li>
-        <li>Le Laissez‑Passer A38 !!!</li>
-        <li>Mais Benoît, t’as 6 ans, tu fumes pas de shit !? Nan, moi j’boua</li>
-        <li>Êtes‑vous vraiment sûr de votre potiron ?</li>
-        <li>Et si on appelait Monsieur Bière ? Monsieur Bière ! Monsieur Bière !</li>
-        <li>Hey, je suis pas venu(e) ici pour souffrir, ok ?</li>
-        <li>La fistinière</li>
-        <li>J’hésite entre “oui, j’ai touché le chèque” et Feur, notamment…</li>
-        <li>Les Maskass doublés avec des extraits de Morsay</li>
-        <li>Miss Jirachi qui chante pour l’anniversaire de David Lafarge ?</li>
-        <li>J’ai l’air de jouer au golf, enculé ?</li>
-        <li>Tu peux pas test !</li>
-        <li>Jérém, prends‑le.</li>
-        <li>Ton diplôme, je m’en fous !! La place de la femme, c’est à la CUISINE</li>
-        <li>J’en ai pas la moindre idée, je me contente de visser dans le trou.</li>
-        <li>Tu vas pas avoir une Clio, quand tu peux avoir une Mustang.</li>
-        <li>Attention à la mousse !!!</li>
-        <li>Mon sac est fait</li>
-        <li>Marina domine et tu t’inclines</li>
-      </random>
-    </template>
-  </category>
+    <category>
+      <pattern>* PHILIPPE *</pattern>
+      <template>PHILIIIIIPPE ! JE SAIS OÙ TU TE CACHES !</template>
+    </category>
 
-  <!-- GREETINGS -->
+    <category>
+      <pattern>* MORT *</pattern>
+      <template>8 morts, 6 blessés, je pète ma bière, ma libellule !</template>
+    </category>
+
+    <category>
+      <pattern>* RAPPEUR *</pattern>
+      <template>Le rappeur du 92, je pense que c'est un des piliers de l'Internet français.</template>
+    </category>
+
+    <category>
+      <pattern>* BRUYANT *</pattern>
+      <template>Mais taisez‑vous !!!!</template>
+    </category>
+
+    <category>
+      <pattern>* DÉSHONNEUR *</pattern>
+      <template>Je préfère mourir de déshonneur plutôt qu'on me déshabille dans mon déshonneur !</template>
+    </category>
+
+    <category>
+      <pattern>* SNOOP *</pattern>
+      <template>Snoop Doggy Dogg, qu'est‑ce qu'on attend ?</template>
+    </category>
+
+    <category>
+      <pattern>* VIENS *</pattern>
+      <template>Allez viens, on est bien ! Allez, viens ! On est bien, bien, bien, bien !</template>
+    </category>
+
+    <category>
+      <pattern>* REGARDE *</pattern>
+      <template>Regarde tout ce qu'on peut faire !</template>
+    </category>
+
+    <category>
+      <pattern>* HOKUTO *</pattern>
+      <template>Hokuto de cuisine… Hokuto de salle à manger !</template>
+    </category>
+
+    <category>
+      <pattern>* HENDEKS *</pattern>
+      <template>Appelez les hendeks !</template>
+    </category>
+
+    <category>
+      <pattern>* INQUIÈTE *</pattern>
+      <template>Ne t'inquiète pas, ça va bien se passer, bien se passer, ne t'inquiète pas.</template>
+    </category>
+
+    <category>
+      <pattern>* REGULAR *</pattern>
+      <template>Un REGULARRRR, COUPE SKINNY !</template>
+    </category>
+
+    <category>
+      <pattern>* RÉPUBLIQUE *</pattern>
+      <template>LA RÉPUBLIQUE, C'EST MWWWWAAAAA !</template>
+    </category>
+
+    <category>
+      <pattern>* HOMOSEXUEL *</pattern>
+      <template>Je n'ai rien contre les homosexuelaaanh</template>
+    </category>
+
+    <category>
+      <pattern>* PUCEAU *</pattern>
+      <template>Moi, puceau ?</template>
+    </category>
+
+    <category>
+      <pattern>* CHRIST *</pattern>
+      <template>J'incarne l'énergie du Christ cosmique</template>
+    </category>
+
+    <category>
+      <pattern>* PATRON *</pattern>
+      <template>C'est qui le patron ? – C'est moi !</template>
+    </category>
+
+    <category>
+      <pattern>* BENOIT *</pattern>
+      <template>Mais Benoît, t'as 6 ans, tu fumes pas de shit !? Nan, moi j'boua</template>
+    </category>
+
+    <category>
+      <pattern>* MONSIEUR BIÈRE *</pattern>
+      <template>Et si on appelait Monsieur Bière ? Monsieur Bière ! Monsieur Bière !</template>
+    </category>
+
+    <category>
+      <pattern>* SOUFFRIR *</pattern>
+      <template>Hey, je suis pas venu(e) ici pour souffrir, ok ?</template>
+    </category>
+
+    <category>
+      <pattern>* GOLF *</pattern>
+      <template>J'ai l'air de jouer au golf, enculé ?</template>
+    </category>
+
+    <category>
+      <pattern>* SAC *</pattern>
+      <template>Mon sac est fait</template>
+    </category>
+
+    <category>
+      <pattern>* MARINA *</pattern>
+      <template>Marina domine et tu t'inclines</template>
+    </category>
+
+    <category>
+      <pattern>* PHOTO *</pattern>
+      <template>
+        <random>
+          <li>Ah bah c’est bien Nils, super pour l’appareil photo, génial, je te remercie. Il est
+            foutu mais c’est pas grave, hein. Oh, t’es vraiment un sale petit con, hein… putain, mais
+            c’est dingue !</li>
+        </random>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* FOU *</pattern>
+      <template>
+        <random>
+          <li>Mais t’es pas net, Baptiste…</li>
+        </random>
+      </template>
+    </category>
+
+    <category>
+      <pattern>AS‑TU VU *</pattern>
+      <template>
+        <random>
+          <li>As‑tu vu les quenouilles ?</li>
+          <li>As‑tu vu les belles quenouilles ?</li>
+        </random>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* TON MÉTIER</pattern>
+      <template>Ingénieur informaticieeeeen. Je suis ingénieur inforticieeeeen. J'aime les ordinateureeeeuh. Windows 98euuuuh.</template>
+    </category>
+
+    <category>
+      <pattern>* TU TRAVAILLES *</pattern>
+      <template>Ingénieur informaticieeeeen. Je suis ingénieur inforticieeeeen. J'aime les ordinateureeeeuh. Windows 98euuuuh.</template>
+    </category>
+
+    <category>
+      <pattern>* IMAGINE *</pattern>
+      <template>Une hallucination collective</template>
+    </category>
+
+    <category>
+      <pattern>* HALLUCINE *</pattern>
+      <template>Une hallucination collective</template>
+    </category>
+
+    <category>
+      <pattern>* MANGER *</pattern>
+      <template>Le gras, c'est la vie</template>
+    </category>
+
+    <category>
+      <pattern>* RUSSIE *</pattern>
+      <template>C'est normal en Russie !</template>
+    </category>
+
+    <category>
+      <pattern>* AVENIR *</pattern>
+      <template>La boule magique !</template>
+    </pattern>
+
+    <category>
+      <pattern>* BIZARRE *</pattern>
+      <template>C'est contre naturaaanh</template>
+    </category>
+
+    <category>
+      <pattern>* OISEAU *</pattern>
+      <template>C'est une pie, enculé ! Putain de citadin de mes morts !</template>
+    </category>
+
+    <category>
+      <pattern>* QUESTION *</pattern>
+      <template>La question, elle est vite répondue…</template>
+    </category>
+
+    <category>
+      <pattern>* CÉLÈBRE *</pattern>
+      <template>J'suis tellement famous que ma tête passe même plus dans l'cadrage de porte. Wow.</template>
+    </category>
+
+    <category>
+      <pattern>* PAS GRAVE *</pattern>
+      <template>Bon, c'est pas si grave que ça — David Goodenough</template>
+    </category>
+
   <category>
     <pattern>^ <set>greetings</set> ^</pattern>
     <template>
@@ -144,7 +237,6 @@
     </template>
   </category>
 
-  <!-- FOLLOW UP QUESTION -->
   <category>
     <pattern>COMMENT ÇA VA</pattern>
     <template>
@@ -155,8 +247,6 @@
       </random>
     </template>
   </category>
-
-  <!-- QUOI -->
 
   <category>
     <pattern>POURQUOI</pattern>
