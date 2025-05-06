@@ -5,15 +5,15 @@
     <template>SALUT</template>
   </category>
   <category>
-  <pattern>QUOI</pattern>
-  <template>Feur</template>
-</category>
-<category>
-  <pattern>* QUOI</pattern>
-  <template>Feur</template>
-</category>
-<category>
-  <pattern>* QUOI *</pattern>
-  <template>Feur</template>
-</category>
+    <pattern>QUOI</pattern>
+    <template>Feur</template>
+  </category>
+  <category>
+    <pattern>* QUOI</pattern>
+    <template>Feur</template>
+  </category>
+  <category>
+    <pattern>* QUOI *</pattern>
+    <template>Feur</template>
+  </category>
 </aiml>
