@@ -272,10 +272,12 @@
     <template>B R U H</template>
   </category>
 
-  <category>
-    <pattern>FIRE</pattern>
-    <image>https://media.tenor.com/jBSRuYeuE3oAAAAM/this-is-fine.gif</image>
-  </category>
+    <category>
+      <pattern>FIRE</pattern>
+      <template>
+        <image>https://media.tenor.com/jBSRuYeuE3oAAAAM/this-is-fine.gif</image>
+      </template>
+    </category>
 
   <category>
     <pattern>*</pattern>
