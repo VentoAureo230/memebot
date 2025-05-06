@@ -260,7 +260,9 @@
 
     <category>
       <pattern>FIRE</pattern>
-      <image>https://media.tenor.com/jBSRuYeuE3oAAAAM/this-is-fine.gif</image>
+      <template>
+        <image>https://media.tenor.com/jBSRuYeuE3oAAAAM/this-is-fine.gif</image>
+      </template>
     </category>
 
     <category>
