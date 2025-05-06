@@ -12,8 +12,4 @@
     <pattern>* QUOI</pattern>
     <template>Feur</template>
   </category>
-  <category>
-    <pattern>* QUOI *</pattern>
-    <template>Feur</template>
-  </category>
 </aiml>
